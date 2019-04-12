@@ -12,8 +12,10 @@ int main(void)
     
 
     int size = sizeof(long);
-    printf("long类型最大字节数：%d", size); // 4
+    printf("long类型最大字节数：%d \n", size); // 4
     // long类型的最大位数为size * 8
+    int length = sizeof(long long);
+    printf("long long类型最大字符数：%d \n", length);
     
 
     return 0;
